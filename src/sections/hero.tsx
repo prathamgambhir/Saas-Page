@@ -74,9 +74,9 @@ export default function Hero() {
           <br /> and celebrate your successes.
         </p>
         <div className="flex justify-center items-center mb-10 md:mb-14 lg:mb-24">
-          <button className="mt-12 h-10 bg-white/90 text-black border-gray-200 shadow-sm/40 rounded-2xl w-auto px-6 py-2">
+          <motion.button className="mt-12 h-10 bg-white/90 text-black font-normal border-gray-200 shadow-sm/40 rounded-2xl w-auto px-6 py-2" whileHover={{scale: 1.05}}>
             Get for free
-          </button>
+          </motion.button>
         </div>
         <div
           className="absolute left-1/2 -translate-x-1/2 rounded-[100%] border border-black/10 bg-black -z-10
